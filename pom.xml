@@ -498,5 +498,17 @@
                 </plugins>
             </reporting>
         </profile>
-    </profiles>    
+    </profiles>
+<distributionManagement>
+    <repository>
+        <id>deploy</id>
+        <name>JReiff @ fobit.com Release Repository</name>
+        <url>http://fobit.com:8080/nexus/content/repositories/jreiff.releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>deploy</id>
+        <name>JReiff @ fobit.com fobit.com Snapshot Repository</name>
+        <url>http://fobit.com:8080/nexus/content/repositories/jreiff.snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>    
 	</project>
